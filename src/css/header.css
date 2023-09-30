@@ -1,0 +1,30 @@
+.header-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px 2px  grey;
+}
+
+.link-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2rem;
+}
+
+.ul-div{
+    display: flex;
+   
+    gap: 2rem;
+}
+
+.ul-div li{
+    list-style: none;
+    border: none;
+    padding-right: 2rem;
+}
+
+.Link{
+    text-decoration: none;
+}

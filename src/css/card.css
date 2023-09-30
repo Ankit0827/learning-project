@@ -1,0 +1,13 @@
+.Card-div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 1rem;
+}
