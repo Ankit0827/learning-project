@@ -3,7 +3,6 @@ import '../../css/card.css'
 const Card=(props)=>{
     
     const card=props.data
-    console.log(card)
     return(
         <div className="Card-div">
 {

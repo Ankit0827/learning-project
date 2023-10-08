@@ -1,0 +1,19 @@
+.home-parent-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.demo-data-maping-div{
+    width: 30%;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 2px 2px grey;
+    padding: 4rem;
+    margin: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: rgb(166, 174, 174);
+}
