@@ -1,5 +1,5 @@
 import Card from "./Card/Card"
-import { useState,useEffect } from "react"
+import { useState,useEffect, } from "react"
 
 import '../css/home.css'
 
@@ -43,8 +43,10 @@ const cardData=[
 
 
 
+
 const Home=()=>{
     const [userData,setUserData]=useState([])
+
 
 useEffect(()=>{
           fetchData();
@@ -74,7 +76,7 @@ console.log(userData)
 
            {
                 userData.map((res)=>(
-                    <div className='demo-data-maping-div'>
+                    <div className='demo-data-maping-div' key={res.name}>
                         <p>{res.name}</p>
                     </div>
                 ))

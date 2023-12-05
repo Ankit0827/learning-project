@@ -13,6 +13,8 @@ import '../css/header.css'
                       <li><Link to="/" className='Link'>Home</Link></li>
                       <li><Link to="/About" className='Link'>About us</Link></li>
                       <li><Link to="/Contact" className='Link'>Contact us</Link></li>
+                      <li><Link to="/crud" className='Link'>CRUD</Link></li>
+
                   </ul>
            
             </div>
